@@ -1,3 +1,7 @@
+# Originally maintained at
+# https://github.com/concrete5cojp/concrete5-gitignore/
+# @katzueno from concrete5 Japan, Inc.
+
 # ignore system files
 .DS_Store
 thumbs.db
