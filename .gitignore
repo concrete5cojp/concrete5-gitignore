@@ -4,6 +4,7 @@
 
 # ignore system files
 .DS_Store
+.idea
 thumbs.db
 __MACOSX
 ._*
@@ -30,21 +31,20 @@ composer.phar
 
 # ignore updates folder
 /updates/*
+!/updates/.gitkeep
 
-# Ignore langiage files
+# Ignore language Files but keep the directory
 /application/languages/*
+!/application/languages/.gitkeep
 
-# webroot files
+# Ignore PHP Composer files
 /composer.json
 /composer.lock
-/index.php
-/LICENSE.TXT
-/robots.txt
 
 # ignore sitemap.xml
 /sitemap.xml
 
-# ignore the error log and .htaccess and other system files
+# ignore the error log and .htaccess and others
 error_log
 .htaccess
 .htpasswd
@@ -69,9 +69,6 @@ error_log
 __IDE_SYMBOLS__.php
 .phpstorm.meta.php
 
-# ignore PHP Storm configuration file
-.idea
-
 # ignore custom php-cs-fixer configuration file
 /.php_cs
 
@@ -80,3 +77,6 @@ __IDE_SYMBOLS__.php
 
 # ignore Visual Code project files
 .vscode
+
+# ignore Nova project files
+.nova
