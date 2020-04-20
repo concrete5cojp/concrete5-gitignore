@@ -36,6 +36,7 @@ composer.phar
 # Ignore language Files but keep the directory
 /application/languages/*
 !/application/languages/.gitkeep
+!/application/languages/site
 
 # Ignore PHP Composer files
 /composer.json
@@ -80,3 +81,8 @@ __IDE_SYMBOLS__.php
 
 # ignore Nova project files
 .nova
+
+# ignore test directories
+test/
+tests/
+
