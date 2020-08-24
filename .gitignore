@@ -1,5 +1,5 @@
 # Originally maintained at
-# https://github.com/concrete5cojp/concrete5-gitignore/
+# https://github.com/concrete5cojp/concrete5-dev-git-boilerplate
 # @katzueno from concrete5 Japan, Inc.
 
 # ignore system files
@@ -10,11 +10,14 @@ __MACOSX
 .*swp
 .*swo
 *.iml
-
+a
 # ignore PHP composer files
 composer.phar
-/composer.json
+## Comment out if you want to ignore the top concrete5 composer file
+## /composer.json
 /composer.lock
+## Ignore vendor directory of packages and etc.
+vendor/
 
 # ignore the config
 /application/config/database.php
