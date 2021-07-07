@@ -39,6 +39,7 @@ vendor/
 # Ignore language Files but keep the directory
 /application/languages/*
 !/application/languages/.gitkeep
+!/application/languages/site
 
 # ignore sitemap.xml
 /sitemap.xml
@@ -76,3 +77,8 @@ __IDE_SYMBOLS__.php
 .vscode
 ## Nova
 .nova
+
+# ignore test directories
+test/
+tests/
+
